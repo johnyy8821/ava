@@ -1,0 +1,22 @@
+name: Build DLL
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup MSVC
+      uses: ilammy/msvc-dev-cmd@v1
+
+    - name: Build DLL
+      run: cl /LD main.cpp /FeCleaner.dll
+
+    - name: Upload DLL
+      uses: actions/upload-artifact@v4
+      with:
+        name: Cleaner
+        path: Cleaner.dll
