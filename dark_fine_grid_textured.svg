@@ -1,0 +1,43 @@
+<svg width="100%" viewBox="0 0 690 690" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Тёмная мелкая клетка с текстурой</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Мелкая клетчатая текстура на тёмном фоне с эффектом мятой бумаги</desc>
+  <defs>
+    <pattern id="smallgrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#c0392b" stroke-width="0.5" opacity="0.6"/>
+    </pattern>
+    <pattern id="noise" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1" height="1" fill="#fff" opacity="0.012"/>
+      <rect x="2" y="1" width="1" height="1" fill="#fff" opacity="0.018"/>
+      <rect x="1" y="3" width="1" height="1" fill="#fff" opacity="0.008"/>
+      <rect x="3" y="2" width="1" height="1" fill="#000" opacity="0.04"/>
+      <rect x="0" y="2" width="1" height="1" fill="#000" opacity="0.03"/>
+    </pattern>
+    <pattern id="fibers" width="80" height="80" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="10" x2="80" y2="12" stroke="#5a0000" stroke-width="0.4" opacity="0.25"/>
+      <line x1="0" y1="30" x2="80" y2="27" stroke="#5a0000" stroke-width="0.3" opacity="0.18"/>
+      <line x1="0" y1="55" x2="80" y2="58" stroke="#5a0000" stroke-width="0.5" opacity="0.2"/>
+      <line x1="0" y1="70" x2="80" y2="68" stroke="#3a0000" stroke-width="0.3" opacity="0.15"/>
+      <line x1="15" y1="0" x2="13" y2="80" stroke="#5a0000" stroke-width="0.3" opacity="0.15"/>
+      <line x1="45" y1="0" x2="47" y2="80" stroke="#3a0000" stroke-width="0.4" opacity="0.12"/>
+      <line x1="65" y1="0" x2="63" y2="80" stroke="#5a0000" stroke-width="0.3" opacity="0.18"/>
+    </pattern>
+    <pattern id="scratches" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 Q 40 30 15 60 Q 5 90 30 120" fill="none" stroke="#1a0000" stroke-width="0.6" opacity="0.3"/>
+      <path d="M 100 10 Q 120 50 95 90 Q 80 130 110 170" fill="none" stroke="#1a0000" stroke-width="0.4" opacity="0.2"/>
+      <path d="M 160 40 Q 175 80 155 130" fill="none" stroke="#1a0000" stroke-width="0.5" opacity="0.25"/>
+      <path d="M 50 150 Q 70 170 45 200" fill="none" stroke="#1a0000" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <rect width="680" height="680" rx="6" fill="#150000" style="fill:rgb(21, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="680" height="680" rx="6" fill="#1e0404" style="fill:rgb(30, 4, 4);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <rect width="680" height="680" rx="6" fill="url(#fibers)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="680" height="680" rx="6" fill="url(#scratches)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="680" height="680" rx="6" fill="url(#smallgrid)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect width="680" height="680" rx="6" fill="url(#noise)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <rect width="680" height="680" rx="6" fill="#000" opacity="0.35" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <rect width="680" height="680" rx="6" fill="none" stroke="#3a0000" stroke-width="1.5" style="fill:none;stroke:rgb(58, 0, 0);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
